@@ -1,13 +1,11 @@
-    package com.devapix.sandbox_service.dto;
+package com.devapix.sandbox_service.dto;
 
-    import lombok.Data;
-    import java.util.Map;
+import lombok.Data;
 
-    @Data
-    public class SandboxRequestDTO {
-
+@Data
+public class SandboxRequestDTO {
         private Integer apiId;
         private Integer endpointId;
         private Integer userId;
         private String apiKey;
-    }
+}
